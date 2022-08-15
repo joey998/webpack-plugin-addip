@@ -1,0 +1,15 @@
+{
+  "name": "@joey998/webpack-plugin-addip",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "joey998",
+  "license": "MIT",
+  "dependencies": {
+    "ip": "^1.1.8"
+  }
+}
