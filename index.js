@@ -1,12 +1,11 @@
-let ip = require('ip').address();
-
-module.exports =  class addIPWebpackPlugn {
+import ip from 'ip';
+import chalk from "chalk";
+export default class addIPWebpackPlugn {
   constructor () {
-
   }
   apply(compiler) {
     compiler.hooks.done.tap('addIPWebpackPlugn', () => {
-      console.log(ip)
+      console.log(chalk.yellow('网络地址为', ip.address()))
     })
   }
 }
